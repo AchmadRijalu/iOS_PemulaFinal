@@ -15,8 +15,10 @@ protocol ListRestaurantServiceProtocol{
 
 
 class ListRestaurantAPIService{
-//    static let shared:ListRestaurantServiceProtocol =
-    //kakska
+    static let shared:ListRestaurantServiceProtocol = ListRestaurantAPIService()
+    private init(){
+        
+    }
 }
 
 

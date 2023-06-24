@@ -12,17 +12,18 @@ import Alamofire
 
 // MARK: - GetAllRestaurant
 struct GetAllRestaurant: Codable, Hashable {
-    let error: Bool
-    let message: String
-    let count: Int
-    let restaurants: [GetAllRestaurantData]
+    
+    var error: Bool
+    var message: String
+    var count: Int
+    var restaurants: [GetAllRestaurantData]
 }
 
 // MARK: - Restaurant
-struct GetAllRestaurantData: Codable, Hashable {
-    let id, name, description, pictureID: String
-    let city: String
-    let rating: Double
+struct GetAllRestaurantData: Codable, Hashable{
+    var id, name, description, pictureID: String
+    var city: String
+    var rating: Double
 
     enum CodingKeys: String, CodingKey {
         case id, name, description

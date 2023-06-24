@@ -6,14 +6,41 @@
 //
 
 import SwiftUI
-
 struct ContentView: View {
+    
+    @StateObject var isDetailView = ViewState()
+    @State var selectedTab = "list.clipboard"
     var body: some View {
-        GeometryReader{reader in
-            NavigationStack{
+        
+        ZStack(alignment: .bottom, content: {
+            
+            Color("Grey").ignoresSafeArea().onAppear(){
                 
             }
-        }
+            VStack{
+                if selectedTab == "list.clipboard"{
+                    ListRestaurantPage()
+                }
+                else{
+                    AboutPage()
+                }
+            }.onAppear(){
+                
+            }
+            //Custom Tabbar here
+            if isDetailView.isDetailView == true{
+                //nothing
+                
+            }
+            else{
+                withAnimation(.spring()){
+                    CustomTabBar(selectedTab: $selectedTab)
+                }
+            }
+           
+        })
+        
+        .environmentObject(isDetailView)
     }
 }
 
