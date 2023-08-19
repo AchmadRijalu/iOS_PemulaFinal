@@ -20,8 +20,6 @@ class ListRestaurantAPIService{
         
     }
 }
-
-
 extension ListRestaurantAPIService: ListRestaurantServiceProtocol{
     
     func fetchListRestaurant() -> AnyPublisher<DataResponse<GetAllRestaurant, NetworkError>, Never> {

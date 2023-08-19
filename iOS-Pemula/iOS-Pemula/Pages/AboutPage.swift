@@ -43,7 +43,7 @@ struct AboutPage: View {
                     
                 }.frame(width: geometry.size.width, height: geometry.size.height)
                     .background(Color("White"))
-                    .navigationTitle("Profile").navigationBarTitleDisplayMode(.automatic)
+                    .navigationTitle("About").navigationBarTitleDisplayMode(.automatic)
             }
             
         }

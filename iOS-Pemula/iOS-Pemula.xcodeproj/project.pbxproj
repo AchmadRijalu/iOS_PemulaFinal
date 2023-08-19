@@ -12,7 +12,6 @@
 		77ADCEB72A39C93B00DEAEB8 /* ListRestaurantAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77ADCEB62A39C93B00DEAEB8 /* ListRestaurantAPIService.swift */; };
 		77ADCEBA2A39CA8F00DEAEB8 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77ADCEB92A39CA8F00DEAEB8 /* Network.swift */; };
 		77BD6B992A4671A80027FCE6 /* ViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BD6B982A4671A80027FCE6 /* ViewState.swift */; };
-		77BD6B9B2A46AC530027FCE6 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BD6B9A2A46AC530027FCE6 /* LoadingView.swift */; };
 		77BD6B9D2A46C08D0027FCE6 /* DetailRestaurantViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BD6B9C2A46C08D0027FCE6 /* DetailRestaurantViewModel.swift */; };
 		77BD6B9F2A46C3280027FCE6 /* DetailRestaurantAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BD6B9E2A46C3280027FCE6 /* DetailRestaurantAPIService.swift */; };
 		77D20E5B2A39BEBA00EA4FFF /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 77D20E5A2A39BEBA00EA4FFF /* SDWebImageSwiftUI */; };
@@ -35,7 +34,6 @@
 		77ADCEB62A39C93B00DEAEB8 /* ListRestaurantAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRestaurantAPIService.swift; sourceTree = "<group>"; };
 		77ADCEB92A39CA8F00DEAEB8 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		77BD6B982A4671A80027FCE6 /* ViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewState.swift; sourceTree = "<group>"; };
-		77BD6B9A2A46AC530027FCE6 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		77BD6B9C2A46C08D0027FCE6 /* DetailRestaurantViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRestaurantViewModel.swift; sourceTree = "<group>"; };
 		77BD6B9E2A46C3280027FCE6 /* DetailRestaurantAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRestaurantAPIService.swift; sourceTree = "<group>"; };
 		77D20E5D2A39BF8B00EA4FFF /* ListRestaurantViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRestaurantViewModel.swift; sourceTree = "<group>"; };
@@ -152,7 +150,6 @@
 				77DC307E2A1DBB8F005F0BBF /* ItemListRestaurant.swift */,
 				77E3E3252A42815E00143224 /* CustomTabBar.swift */,
 				77E3E3362A45BAEC00143224 /* TabCurve.swift */,
-				77BD6B9A2A46AC530027FCE6 /* LoadingView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -256,7 +253,6 @@
 				77E3E3262A42815E00143224 /* CustomTabBar.swift in Sources */,
 				77D20E5E2A39BF8B00EA4FFF /* ListRestaurantViewModel.swift in Sources */,
 				77DC306C2A1DB7C8005F0BBF /* iOS_PemulaApp.swift in Sources */,
-				77BD6B9B2A46AC530027FCE6 /* LoadingView.swift in Sources */,
 				77DC30832A1DBC36005F0BBF /* AboutPage.swift in Sources */,
 				77DC30872A1DBC5B005F0BBF /* DetailRestaurantModel.swift in Sources */,
 				77DC30812A1DBC17005F0BBF /* DetailRestaurantPage.swift in Sources */,
